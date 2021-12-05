@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(office.jpg);
+    background-size: cover;
+}
+.login-box
+{
+    width: 280px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: black;
+}
+.textbox
+{
+    width: 100px;
+    overflow: hidden;
+    font-size: 40px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 1px solid #4caf50;
+}
+.textbox input
+{
+    border:none;
+    outline: none;
+    background: none;
+    color: black;
+    font-size: 15px;
+    width: 80%;
+    float: left;
+    margin: 0 10px;
+}
+.btn
+{
+    width: 100px;
+    background: none;
+    border:2px solid #4caf50;
+    color: black;
+    padding: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 12px;
+}
